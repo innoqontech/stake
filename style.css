@@ -117,7 +117,7 @@ div .btn{
     nav .fa{
         display: none;
     }
-    @media(max-width:567px) {
+    /* @media(max-width:567px) {
         div.container{
             position: absolute;
             background: #00afef(56, 54, 53);
@@ -140,7 +140,380 @@ div .btn{
             cursor:pointer;
             color:rgb(10, 8, 8);
         }
+    } */
+
+div .fa fa-bars{
+    align-items: end;
+}
+
+h1{
+    width: 40%;
+    /* text-align: justify; */
+    margin-top:70px;
+    margin-left: 60px;
+    font-size:50px;
+    color: black;
+}
+
+p{
+    width: 40%;
+    text-align: justify;
+    margin-top:30px;
+    margin-left: 60px;
+    font-size:20px;
+    color: black;
+}
+
+.media img{
+    display: block;
+    position: absolute;
+    top: 160px;
+    right: 45px;
+    width:660px;
+  
+}
+
+
+
+.btn1{
+    
+    margin-left: 100px;
+    margin-top: 40px;
+    font-size: 14px;
+    padding: 13px;
+    background-color: rgb(169, 207, 224);
+    color: black;
+    border-radius: 10px;
+    
+}
+.sec-3{
+    background-color: #000;
+}
+
+
+.sec-3 img{
+    display: block;
+    position: absolute;
+    top:940px;
+    left:47px;
+    
+    width:660px
+}
+
+.sec-3 p{
+    margin-right: 0px;
+    color: rgb(212, 32, 32);
+    margin-left: 750px;
+    margin-top:199px;
+  
+}
+
+.sec-4 img{
+    display: block;
+    position: absolute;
+    top:1819px;
+    right: 45px;
+
+    width:660px
+}
+
+.sec-4 p{
+    
+    margin-top:609px;
+    margin-left: 60px;
+    font-size:20px;
+    color: black;
+}
+
+.logo1 {
+    display: flex;
+    position: absolute;
+    height: 160px;
+    width: 150px;
+    margin: 130px 729px;
+    padding: 0px 40px;
+}
+
+.logo2 {
+    margin-left: 966px;
+    margin-top: 137px;
+    width: 170px;
+    height: 146px;
+}
+.logo3{
+    display: flex;
+    position: absolute;
+    height: 160px;
+    width:150px;
+    right: 25px;
+    top:710px;
+}
+
+#logo-m{
+   
+        display: flex;
+        position: absolute;
+        height: 40px;
+        width:180px;
+        margin: 360px 460px;
+        padding: 0px 40px;
+}
+#logo-gc{
+   
+    display: flex;
+    position: absolute;
+    height: 80px;
+    width:120px;
+    margin: 340px 160px;
+    padding: 0px 40px;
+}
+#logo-f{
+   
+    display: flex;
+    position: absolute;
+    height: 90px;
+    width:130px;
+    margin: 340px 300px;
+    padding: 0px 40px;
+}
+
+#logo-ibm{
+   
+    display: flex;
+    position: absolute;
+    height: 110px;
+    width:180px;
+    margin: 360px 540px;
+    padding: 0px 40px;
+}
+#logo-razor{
+   
+    display: flex;
+    position: absolute;
+    height: 40px;
+    width:140px;
+    margin: 470px 260px;
+    padding: 0px 40px;
+}
+#logo-pay{
+   
+    display: flex;
+    position: absolute;
+    height: 70px;
+    width:130px;
+    margin: 457px 450px;
+    padding: 0px 40px;
+}
+
+
+#logo-phone{
+   
+    display: flex;
+    position: absolute;
+    height: 160px;
+    width:170px;
+    margin: 408px 610px;
+    padding: 0px 40px;
+}
+#logo-aws{
+   
+    display: flex;
+    position: absolute;
+    height: 60px;
+    width:100px;
+    margin: 473px 810px;
+    padding: 0px 40px;
+}
+#logo-ibm{
+   
+    display: flex;
+    position: absolute;
+    height: 110px;
+    width:180px;
+    margin: 305px 820px;
+    padding: 0px 40px;
+}
+#logo-exotel{
+   
+    display: flex;
+    position: absolute;
+    height: 90px;
+    width:110px;
+    margin: 340px 680px;
+    padding: 0px 40px;
+}
+
+#logo-digital{
+    display: flex;
+    position: absolute;
+    height: 90px;
+    width:150px;
+    margin: 330px 1040px;
+    padding: 0px 40px;
+}
+
+
+@media(max-width:1298px){
+    h1{
+        width: 30%;
+        /* text-align: justify; */
+        margin-top:70px;
+        margin-left: 60px;
+        font-size:45px;
+        color: black;
     }
+    p{
+        width: 30%;
+        margin-top:30px;
+        margin-left: 60px;
+        font-size:20px;
+        color: black;
+    }
+    .btn1 {
+        margin-left: 45px;
+        margin-top: 40px;
+        font-size: 14px;
+        padding: 13px;
+        background-color: rgb(169, 207, 224);
+        color: black;
+        border-radius: 10px;
+    }
+    .media img{
+        display: block;
+        position: absolute;
+        top: 160px;
+        right: 15px;
+        width:660px;
+      
+    }
+    
+  
+}
+@media(max-width:1079px){
+    h1{
+        width: 28%;
+        /* text-align: justify; */
+        margin-top:70px;
+        margin-left: 10px;
+        font-size:35px;
+        color: black;
+    }
+    p{
+        width: 33%;
+       
+        margin-top:30px;
+        margin-left:10px;
+        font-size:20px;
+        color: black;
+    }
+    .btn1 {
+        margin-left: 20px;
+        margin-top: 30px;
+        font-size: 14px;
+        padding: 13px;
+        background-color: rgb(169, 207, 224);
+        color: black;
+        border-radius: 10px;
+    }
+    .media img{
+        display: block;
+        position: absolute;
+        top: 160px;
+        right: 15px;
+        width:540px;
+      
+    }
+   
+    
+  
+}
+
+@media(max-width:895px){
+    h1{
+        width: 28%;
+        /* text-align: justify; */
+        margin-top:70px;
+        margin-left: 5px;
+        font-size:35px;
+        color: black;
+    }
+    p{
+        width: 25%;
+       
+        margin-top:30px;
+        margin-left:5px;
+        font-size:20px;
+        color: black;
+    }
+    .btn1 {
+        margin-left: 5px;
+        margin-top: 30px;
+        font-size: 14px;
+        padding: 13px;
+        background-color: rgb(169, 207, 224);
+        color: black;
+        border-radius: 10px;
+    }
+    .media img{
+        display: block;
+        position: absolute;
+        top: 160px;
+        right: 15px;
+        width:540px;
+      
+    }
+   
+    
+  
+}
+
+
+@media(max-width:772px){
+    h1{
+        width: 100%;
+        /* text-align: justify; */
+        margin-top:630px;
+        margin-left: 30px;
+        font-size:30px;
+        color: black;
+    }
+    p{
+        width: 100%;
+       
+        margin-top:20px;
+        margin-left:30px;
+        font-size:15px;
+        color: black;
+    }
+    .btn1 {
+        margin-left: 5px;
+        margin-top: 30px;
+        font-size: 14px;
+        padding: 13px;
+        background-color: rgb(169, 207, 224);
+        color: black;
+        border-radius: 10px;
+       
+    }
+    .media img{
+        
+        display: block;
+        position: absolute;
+        top: 140px;
+       
+        width:100%;
+       left:30px;
+        
+      
+    }
+   
+    
+  
+}
+
+
+
+
 
 div .fa fa-bars{
     align-items: end;
