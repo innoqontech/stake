@@ -6,6 +6,8 @@ import listening from '../assets/images/home/home-right-9a8b1b79.jpg'
 import compname from '../assets/images/home/compname.png';
 import '../pages/Home.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import Newsletter from '../components/Newsletter';
+import Footer from '../components/Footer';
 
 function Home() {
   return (
@@ -58,14 +60,14 @@ function Home() {
           <img src={listening} alt="img2" />
         </div>
         <div className="txtcont2">
-          <p>Listening</p>
+          <p className='txt'>Listening</p>
           <h2>Understand your audience</h2>
           <p>Uncover trends and actionable insights from
 social data to inform brand and business strategy.</p>
           <a href=''>Explore our Listening features</a>
           <div className='kbtns'>
-             <p>Listening</p>
-             <p>Publishin</p>
+             <p className='active'>Listening</p>
+             <p>Publishing</p>
              <p>Engagement</p>
              <p>Analytics</p>
              <p>Advocacy</p>
@@ -85,10 +87,7 @@ social data to inform brand and business strategy.</p>
       </div>
 
       {/* section 4 */}
-      <div className='cont2'>
-        <div className="imgsec">
-          <img src={listening} alt="img2" />
-        </div>
+      <div className='cont4'>
         <div className="txtcont2">
           <p>Listening</p>
           <h2>Understand your audience</h2>
@@ -97,14 +96,64 @@ social data to inform brand and business strategy.</p>
           <a href=''>Explore our Listening features</a>
           <div className='kbtns'>
              <p>Listening</p>
-             <p>Publishin</p>
+             <p className='active'>Publishing</p>
              <p>Engagement</p>
              <p>Analytics</p>
              <p>Advocacy</p>
           </div>
         </div>
+        <div className="imgsec">
+          <img src={listening} alt="img2" />
+        </div>
       </div>
       
+      {/* section 5 */}
+      <div className="cont5">
+        <div className='incont5'>
+          <h3>Change the way you see social,transform the way you do business</h3>
+          <p>Customers share why they choose Sprout’s social media management software and solutions.</p>
+          <p> <span className='vidlogo'></span> Watch Video</p>
+        </div>
+      </div>
+
+      {/* section 6 */}
+      <div className='cont2'>
+        <div className="imgsec">
+          <img src={listening} alt="img2" />
+        </div>
+        <div className="txtcont2">
+          <p className='txt'>Listening</p>
+          <h2>Understand your audience</h2>
+          <p>Uncover trends and actionable insights from
+social data to inform brand and business strategy.</p>
+          <a href=''>Explore our Listening features</a>
+          <div className='kbtns'>
+             <p>Listening</p>
+             <p>Publishing</p>
+             <p className='active'>Engagement</p>
+             <p>Analytics</p>
+             <p>Advocacy</p>
+          </div>
+        </div>
+      </div>
+
+      {/* section 7 */}
+      <div className='cont6'>
+        <div className="incont6">
+          <h3>Experience the future with our innovative tech product.</h3>
+          <div className='btns'>
+            <button>Request a Demo</button>
+            <button>Watch Video</button>
+          </div>
+          <p>No credit card required</p>
+        </div>
+      </div>
+
+      {/* section 8 */}
+      <Newsletter />
+
+      {/* section 9 */}
+      <Footer />
     </div>
   )
 }

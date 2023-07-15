@@ -99,22 +99,133 @@ nav button:hover{
     width: 500px;
 }
 
+.imgsec{
+    margin-right: 100px;
+}
+
 .cont2{
     display: flex;
     align-items: center;
     padding-left: 200px;
-    background: url('../assets/images/home/Sec2.png');
+    /* width: 18%; */
+    height: 80vh;
+
+    /* background-color: #02032C;
+     */
+     /* background-image: linear-gradient(to right, #02032c, #3d3c5b, #7a788e, #bbb9c5, #ffffff); */
+    /* background: url('../assets/images/home/Sec2.png'); */
+    background-image: linear-gradient(to right, #02032c, #2e2f4f, #5b5974, #8a879c, #bbb9c5, #d1d0d8, #e8e7eb, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff);
 }
 
 .txtcont2{
     width: 400px;
-    margin-left: 20px;
 }
 
+.txtcont2 a{
+    color: #1D66C3;
+    text-decoration: none;
+}
+
+.txt{
+    padding-bottom: 15px;
+}
+
+.txtcont2 h2 {
+    padding-bottom: 20px;
+}
+
+.kbtns{
+    padding: 20px 0;
+    display: grid;
+    grid-template-columns: 150px 150px;
+    grid-gap: 20px;
+}
+
+.kbtns p{
+    padding: 10px 5px;
+    background-color: #F3F4F4;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+
+.kbtns .active{
+    background-color: #1D66C3;
+    color: white;
+}
 
 
 /* section 3 */
 
 .cont3{
     background-color:#1D66C3;
+    display: flex;
+    align-items: center;
+    padding: 0 14vw ;
+    height: 40vh;
+}
+
+
+/* section 4 */
+
+.cont4{
+    display: flex;
+    align-items: center;
+    padding-left: 200px;
+    height: 80vh;
+
+    /* background-color: #02032C; */
+    background-image: linear-gradient(to left, #02032c, #2e2f4f, #5b5974, #8a879c, #bbb9c5, #d1d0d8, #e8e7eb, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff);
+}
+
+.cont5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+    color: white;
+}
+
+.incont5{
+    background-color: #1D66C3;
+    padding: 40px 60px;
+    border-bottom-right-radius: 25px;
+}
+
+.incont5 > :not(:last-child){
+    padding-bottom: 20px;
+}
+
+
+/* section 6 */
+
+.cont6{
+    display: flex;
+    align-items: center;
+    background-color: #4B8CDF;
+    color: white;
+    height: 30vh;
+}
+
+.incont6 button{
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    font-weight: 700;
+}
+
+.incont6 .btns{
+    padding-bottom: 10px;
+}
+
+.incont6{
+    margin-left: 16%;
+}
+
+.incont6 p{
+    font-size: small;
+    color: black;
+}
+
+.incont6 h3{
+    padding-bottom: 20px;
 }

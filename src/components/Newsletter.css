@@ -1,0 +1,27 @@
+
+.cont7{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+}
+
+.incont7{
+    display: flex;
+    align-items: center;
+}
+
+.incont7 > :not(:last-child){
+    padding-right: 30px;
+}
+
+.incont7 button{
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    background-color: #1D66C3;
+}
+
+.incont7 img{
+    width: 50px;
+}

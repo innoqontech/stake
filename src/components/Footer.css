@@ -1,0 +1,15 @@
+.outfoot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+}
+
+.infoot{
+    display: grid;
+    grid-template-columns: repeat(6, 180px);
+}
+
+.infoot li{
+    list-style: none;
+}
