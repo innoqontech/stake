@@ -10,6 +10,21 @@
     grid-template-columns: repeat(6, 180px);
 }
 
-.infoot li{
-    list-style: none;
+.infoot a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.infoot a > :not(:last-child){
+    padding-top: 5px;
+}
+
+.infoot a:hover{
+    transform: translateX(2);
+}
+
+.footfot{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
