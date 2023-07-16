@@ -13,6 +13,7 @@
 .infoot a{
     text-decoration: none;
     cursor: pointer;
+    color: black;
 }
 
 .infoot a > :not(:last-child){
