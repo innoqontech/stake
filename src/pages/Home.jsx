@@ -8,6 +8,7 @@ import '../pages/Home.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Newsletter from '../components/Newsletter';
 import Footer from '../components/Footer';
+import { ArrowRight, Play } from 'lucide-react';
 
 function Home() {
   return (
@@ -35,8 +36,8 @@ function Home() {
               <h1>A powerful solution for social media management.</h1>
               <p>Our all-in-one social media management platform unlocks the full potential of social to transform not just your marketing strategy—but every area of your organization.</p>
               <div className="btns">
-                <button>Start Your Free Trial</button>
-                <p>Request a demo <FontAwesomeIcon icon="fa-regular fa-arrow-right" /></p>
+                <button>Start Your Free Trial </button>
+                <p>Request a demo <span><i class="fa-solid fa-arrow-right"></i></span> </p>
               </div>
               <p>No credit card required</p>
 
@@ -112,7 +113,10 @@ social data to inform brand and business strategy.</p>
         <div className='incont5'>
           <h3>Change the way you see social,transform the way you do business</h3>
           <p>Customers share why they choose Sprout’s social media management software and solutions.</p>
-          <p> <span className='vidlogo'></span> Watch Video</p>
+          <div className="wvideo">
+            <span className='vidlogo'><i class="fa-solid fa-circle-play"></i></span>
+            <p>Watch Video</p>
+          </div>
         </div>
       </div>
 
