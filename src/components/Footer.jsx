@@ -9,11 +9,11 @@ function Footer() {
             <div className="infoot">
                 <div className="col1">
                     <div>
-                        <h3>Contact with us</h3>
+                        <h4>Contact with us</h4>
                         <a>connect@stack.com</a>
                     </div>
-                    <div>
-                        <h3>Support</h3>
+                    <div className='supp'>
+                        <h4>Support</h4>
                         <a>Help Center</a>
                         <br />
                         <a>FAQs</a>
@@ -22,7 +22,7 @@ function Footer() {
                     </div>
                 </div>
                 <div className="col2">
-                    <h3>Solutions</h3>
+                    <h4>Solutions</h4>
                     <div>
                         <a>Enterprise</a>
                         <br />
@@ -40,7 +40,7 @@ function Footer() {
                     </div>
                 </div>
                 <div className="col3">
-                    <h3>Platform</h3>
+                    <h4>Platform</h4>
                     <div>
                         <a>Analytics</a>
                         <br />
@@ -56,7 +56,7 @@ function Footer() {
                     </div>
                 </div>
                 <div className="col4">
-                    <h3>Integrations</h3>
+                    <h4>Integrations</h4>
                     <div>
                         <a>Facebook Management</a>
                         <br />
@@ -76,7 +76,7 @@ function Footer() {
                     </div>
                 </div>
                 <div className="col5">
-                    <h3>Company</h3>
+                    <h4>Company</h4>
                     <div>
                         <a>About Sprout</a>
                         <br />
@@ -94,7 +94,7 @@ function Footer() {
                     </div>
                 </div>
                 <div className="col6">
-                    <h3>Resources</h3>
+                    <h4>Resources</h4>
                     <div>
                         <a>Blog</a>
                         <br />
@@ -114,12 +114,17 @@ function Footer() {
             </div>
         </div>
         <div className="footfot">
-            <div>
-                icons
+            <div className='brandicons'>
+                <i class="fa-brands fa-twitter"></i>    
+                <i class="fa-brands fa-square-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-facebook"></i>   
+                <i class="fa-brands fa-pinterest"></i>
+                <i class="fa-brands fa-google"></i>
             </div>
             <div className="copyright">
                 <p>©Copyright 2023 Innoqon Tech. All Rights Reserved.</p>
-                <p>Privacy | Terms | Disclosure Policy | Cookies</p>
+                <span>Privacy | Terms | Disclosure Policy | Cookies</span>
             </div>
         </div>
     </div>

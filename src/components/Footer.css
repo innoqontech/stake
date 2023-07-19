@@ -8,12 +8,23 @@
 .infoot{
     display: grid;
     grid-template-columns: repeat(6, 180px);
+    color: #162020;
 }
 
 .infoot a{
     text-decoration: none;
     cursor: pointer;
     color: black;
+    font-size: small;
+    padding: 10px 0;
+}
+
+.supp{
+    padding-top: 10px;
+}
+
+.infoot h4{
+    padding-bottom: 10px;
 }
 
 .infoot a > :not(:last-child){
@@ -28,4 +39,46 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    padding-bottom: 20px;
+}
+
+.copyright{
+    font-size: small;
+}
+
+.copyright span{
+    color: #515E5F;
+}
+
+.brandicons{
+    display: flex;
+    align-items: center;
+}
+
+.brandicons i{
+    cursor: pointer;
+}
+
+.brandicons > :not(:last-child){
+    margin-right: 10px;
+}
+
+.fa-twitter:hover{
+    color: #00acee;
+}
+.fa-linkedin:hover{
+    color: #0A66C2;
+}
+.fa-facebook:hover{
+    color: #3b5998;
+}
+.fa-pinterest:hover{
+    color: #E60023;
+}
+.fa-google:hover{
+    color: #0F9D58;
+}
+
+.fa-square-instagram:hover{
+    color: #d62976;
 }
