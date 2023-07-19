@@ -1,34 +1,20 @@
 import React from 'react';
-import logo from '../assets/images/home/innoqon.png';
 import heroimg from '../assets/images/home/1.png';
 import comp from '../assets/images/home/images-home-c880482c.jpg'
 import listening from '../assets/images/home/home-right-9a8b1b79.jpg'
 import compname from '../assets/images/home/compname.png';
 import '../pages/Home.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Newsletter from '../components/Newsletter';
 import Footer from '../components/Footer';
-import { ArrowRight, Play } from 'lucide-react';
+import Header from '../components/Header';
 
 function Home() {
   return (
     <div>
       <div className='hero-sec'>
-        <div className="head"></div>
-        {/* nav section  start*/}
-        <nav>
-          <div className="logo">
-            <img src={logo} alt="" />
-          </div>
-          <a href="#">Features</a>
-          <a href="#">Pricing</a>
-          <a href="#">Demo</a>
-          <a href="#">Company</a>
-          <a href="#">Stories</a>
-          <button>Login</button>
-        </nav>
+        
         {/* nav section end*/}
-
+        <Header />
         {/* main section start*/}
         <div className="main_sec">
           <div className='cont1'>

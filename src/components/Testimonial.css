@@ -1,0 +1,45 @@
+.testicont{
+    width: 250px;
+}
+
+.content{
+    border: 2px solid #DEE1E1;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.content p, .content span{
+    font-size: 15px;
+}
+.content span{
+    color: blue;
+    cursor: pointer;
+}
+
+.content p::before, h3::after, h3::before{
+    content: '"';
+}
+.content p::after{
+    content: '"';
+}
+
+.customerdetails{
+    padding: 20px;
+}
+
+.pfimg{
+    width: 40px;
+    border-radius: 50%;
+}
+
+.name{
+    font-size: 13px;
+}
+.prof{
+    font-size: 10px;
+}
+
+.customerdetails{
+    display: flex;
+    align-items: center;
+}

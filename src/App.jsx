@@ -1,15 +1,20 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import { BrowserRouter, Routes, Route, Link, NavLink } from 'react-router-dom'
 import Home from './pages/Home'
+import Stories from './pages/Stories'
 
 function App() {
   
   return (
-    <>
-      <Home/>
-    </>
+    <BrowserRouter>
+      <main>
+        <Routes>
+          <Route path='/' element={<Home/>}/>
+          <Route path='/stories' element={<Stories/>}/>
+        </Routes>
+      </main>
+    </BrowserRouter>
   )
 }
 
