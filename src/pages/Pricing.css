@@ -1,0 +1,195 @@
+.backsec1{
+    background-color: #1B66AC;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inbacksec1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 25px;
+}
+
+.inbacksec1 > :not(:last-child){
+    padding-bottom: 30px;
+}
+
+.blue-back{
+    background-color: #02032C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inblue-back{
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+.righcont img{
+    width: 400px;
+}
+
+.lefcont{
+    width: 500px;
+}
+
+.lefcont h2{
+    padding-bottom: 20px;
+}
+
+.joinus{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgrey;
+}
+
+.injoinus{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px 0;
+}
+
+.logos{
+    display: flex;
+    align-items: center;
+}
+
+.logos img{
+    width: 200px;
+}
+
+.price{
+    width: 200px;
+    border: 2px solid lightgrey;
+    margin-right: 20px;
+    padding: 20px;
+    height: 725px;
+}
+
+.inprices{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+.uppersec{
+    border-bottom: 2px solid lightgrey;
+}
+
+.uppersec h2{
+    padding-bottom: 8px;
+}
+
+.uppersec p{
+    font-size: 14px;
+    padding-bottom: 8px;
+}
+
+.uppersec button{
+    padding: 10px 20px;
+    background: none;
+    border: 2px #0A3960 solid;
+}
+
+.blue-line{
+    margin-top: 20px;
+    margin-bottom: 5px;
+    height: 8px;
+    width: 70px;
+    background-color: #1D66C3;
+}
+
+.demoreq{
+    font-size: 12px !important; 
+    color:#0A3960;
+}
+
+.bottomsec{
+    padding: 10px 0;
+}
+
+.pros li{
+    text-decoration: none;
+    list-style: none;
+    padding: 5px 0;
+}
+
+.getstart {
+    font-weight: 700;
+}
+
+.getstart:hover{
+    background-color: #02032C;
+    color: white;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.faq_sec{
+    height: 70vh;
+    display: flex;
+    padding-top: 70px;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.infaq_sec{
+    display: flex;
+    align-items: flex-start;
+}
+
+.l_cont img{
+    width: 300px;
+}
+
+.r_cont h2{
+    padding-bottom: 10px;
+}
+
+.r_cont #call{
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+.faqs #head{
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+.ques{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly;
+     */
+     cursor: pointer;
+}
+
+.ques span{
+    padding-right: 40px;
+}
+
+.whenans{
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+
+    padding: 20px 0 10px 0;
+    border-bottom: 2px solid lightgrey;
+}
+
+.answer{
+    padding: 10px 0 0 5px;
+}
