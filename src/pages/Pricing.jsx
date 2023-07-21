@@ -1,15 +1,49 @@
 import React from 'react';
+import { useState } from 'react';
 import './Pricing.css';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Price from '../components/Price';
 
+import faqimg from '../assets/images/stories/FAQ.png'
 import subaru from '../assets/images/stories/subaru.png'
 import columbia from '../assets/images/stories/columbia.png'
 import shopify from '../assets/images/stories/shopify.png'
 import companies from '../assets/images/stories/companies.png';
 
 const Pricing = () => {
+
+    const [openIndex, setOpenIndex] = useState(null);
+
+  const toggleDropdown = (index) => {
+    setOpenIndex((prevIndex) => (prevIndex === index ? null : index));
+  };
+
+  const faqs = [
+    {
+      question: 'What happens when my free trial ends ?',
+      answer: 'Answer to Question 1',
+    },
+    {
+      question: 'Do I have to start a trial or is there another way for me to experience the platform ?',
+      answer: 'Answer to Question 2',
+    },
+    {
+      question: 'Can I change my plan ?',
+      answer: 'Answer to Question 3',
+    },
+    {
+        question: 'How do I know which plan is best for my business ?',
+        answer: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi doloribus, architecto quidem hic libero assumenda animi aut distinctio exercitationem nemo?',
+    },
+    {
+        question: 'What are my payment options ?',
+        answer: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias modi voluptas velit commodi quidem quaerat itaque, eligendi perspiciatis? Eligendi, quo.'
+    }
+    // Add more questions and answers as needed
+  ];
+
+
   return (
     <div>
       <Header />
@@ -156,6 +190,31 @@ the key to making deeper connections with their audience.</p>
             </div>
             <div className="righcont">
                 <img src={companies} alt="" />
+            </div>
+        </div>
+      </div>
+
+      {/* section4 FA@ */}
+      <div className="faq_sec">
+        <div className="infaq_sec">
+            <div className="l_cont">
+                <img src={faqimg} alt="" />
+            </div>
+            <div className="r_cont">
+                <h2>Questions regarding any of our plans?</h2>
+                <p id='call'>Send us note at or call us at 1866-878-321</p>
+                <div className="faqs">
+                    <p id='head'>Frequently Asked Questions</p>
+                    {faqs.map((faq, index) => (
+                        <div className='whenans' key={index}>
+                            <div className='ques' onClick={() => toggleDropdown(index)}>
+                                {openIndex === index ? <span><i class="fa-solid fa-angle-up"></i></span> : <span><i class="fa-solid fa-angle-down"></i></span>}
+                                <h4>{faq.question}</h4>
+                            </div>
+                            {openIndex === index && <p className='answer'>{faq.answer}</p>}
+                        </div>
+                    ))}
+                </div>
             </div>
         </div>
       </div>

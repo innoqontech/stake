@@ -136,3 +136,60 @@
     transition: 0.5s ease;
     cursor: pointer;
 }
+
+.faq_sec{
+    height: 70vh;
+    display: flex;
+    padding-top: 70px;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.infaq_sec{
+    display: flex;
+    align-items: flex-start;
+}
+
+.l_cont img{
+    width: 300px;
+}
+
+.r_cont h2{
+    padding-bottom: 10px;
+}
+
+.r_cont #call{
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+.faqs #head{
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+.ques{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly;
+     */
+     cursor: pointer;
+}
+
+.ques span{
+    padding-right: 40px;
+}
+
+.whenans{
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+
+    padding: 20px 0 10px 0;
+    border-bottom: 2px solid lightgrey;
+}
+
+.answer{
+    padding: 10px 0 0 5px;
+}
