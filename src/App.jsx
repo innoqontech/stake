@@ -5,6 +5,7 @@ import Home from './pages/Home'
 import Stories from './pages/Stories'
 import Pricing from './pages/Pricing'
 import Demo from './pages/Demo'
+import Features from './pages/Features'
 
 function App() {
   
@@ -16,6 +17,7 @@ function App() {
           <Route path='/stories' element={<Stories/>}/>
           <Route path='/pricing' element={<Pricing/>}/>
           <Route path='/demo' element={<Demo/>}/>
+          <Route path='/features' element={<Features/>}/>
         </Routes>
       </main>
     </BrowserRouter>
