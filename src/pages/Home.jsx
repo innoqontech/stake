@@ -28,7 +28,6 @@ function Home() {
               <p>No credit card required</p>
 
             </div>
-
             <img className='heroimg' src={heroimg} alt="" />
           </div>
 

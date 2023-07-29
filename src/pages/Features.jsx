@@ -62,7 +62,7 @@ const Features = () => {
             position: absolute;
             right: 0;
             height: 100%;
-            width: 600px;
+            width: 45vw;
             top: 0;
             border-radius: 50% 0 0 50%;
             background-color: #2079C3;
@@ -159,11 +159,9 @@ const Features = () => {
     
         display: flex;
         align-items: center;
+        justify-content: center;
         position: relative;
         padding: 30px 0;
-
-    
-
         
     `
 
