@@ -43,9 +43,9 @@
 
 
 .every{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .inevery{
@@ -67,17 +67,19 @@
 .down{
     display: flex;
     align-items: center;
+    justify-content: center;
     position: relative;
     padding: 30px 0;
 }
 
 .down::before{
-    content: "";
-    position: absolute;
-    background-color: #08C4B2;
-    width: 40%;
-    height: 100%;
-    z-index: -1;
+  content: "";
+  position: absolute;
+  background-color: #08C4B2;
+  width: 45vw;
+  height: 100%;
+  left: 0;
+  z-index: -1;
 }
 
 .le_cont{

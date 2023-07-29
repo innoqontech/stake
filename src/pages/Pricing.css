@@ -138,9 +138,8 @@
 }
 
 .faq_sec{
-    height: 70vh;
     display: flex;
-    padding-top: 70px;
+    padding: 120px;
     /* align-items: center; */
     justify-content: center;
 }
@@ -192,4 +191,5 @@
 
 .answer{
     padding: 10px 0 0 5px;
+    width: 600px;
 }

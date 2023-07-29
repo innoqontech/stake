@@ -1,0 +1,93 @@
+/* .firstsec{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    position: relative;
+    background-color: #0A3960;
+} */
+
+
+.downm::before{
+    content: "";
+    position: absolute;
+    background-color: #2079C3;
+    width: 45vw;
+    height: 100%;
+    left: 0;
+    z-index: -1;
+}
+
+
+.le_cont{
+    padding-right: 50px;
+}
+
+.le_cont img{
+    width: 600px;
+}
+
+.bxes{
+    padding: 20px;
+    width: 300px;
+    border-left: 5px transparent;
+    transition: background-color 0.5s, border-right 1s;
+}
+
+.active{
+    background-color: #f3f3f3;
+    border-left: 5px solid #2079C3;
+}
+
+
+.bxes h2{
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.bxes p{
+    font-size: 14px;
+    width: 300px;
+}
+
+
+/* 
+.sec5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+
+.topfeatures{
+    display: flex;
+    justify-content: center;
+}
+
+.intopfeatures{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.intopfeatures h1{
+    padding-bottom: 20px;
+}
+
+.gridcont{
+    display: grid;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    gap: 40px;
+    grid-template-columns: repeat(3, 250px);
+}
+
+.intopfeatures button{
+    padding: 15px 40px;
+    cursor: pointer;
+    color: white;
+    background-color: #0A3960;
+}
+
+
