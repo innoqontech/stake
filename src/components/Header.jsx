@@ -4,6 +4,11 @@ import logo from '../assets/images/home/innoqon.png';
 import { Link } from 'react-router-dom';
 
 function Header() {
+
+  // const handlelogin = () => {
+    
+  // }
+
   return (
     <div>
       <div className="head"></div>
@@ -20,7 +25,7 @@ function Header() {
             <Link to="/about-us">Company</Link>
             <Link to="/stories">Stories</Link>
           </div>
-          <button>Login</button>
+          <Link className='log_in' to="/dashboard">Login</Link>
         </nav>
     </div>
   )
