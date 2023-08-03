@@ -3,7 +3,7 @@ import heroimg from '../assets/images/home/1.png';
 import comp from '../assets/images/home/images-home-c880482c.jpg'
 import listening from '../assets/images/home/home-right-9a8b1b79.jpg'
 import compname from '../assets/images/home/compname.png';
-import '../pages/Home.css';
+import '../styles/Home.css';
 import Newsletter from '../components/Newsletter';
 import Footer from '../components/Footer';
 import Header from '../components/Header';

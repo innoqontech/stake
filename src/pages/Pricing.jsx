@@ -1,6 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
-import './Pricing.css';
+import '../styles/Pricing.css';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Price from '../components/Price';

@@ -1,5 +1,5 @@
 import React from 'react';
-import './Testimonial.css';
+import '../styles/Testimonial.css';
 
 
 const Testimonial = ({ title, description, name, occupation, profilePicture }) => {
