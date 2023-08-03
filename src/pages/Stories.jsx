@@ -1,10 +1,9 @@
 import React from 'react';
-import '../pages/Stories.css';
+import '../styles/Stories.css';
 // components
 import Footer from '../components/Footer';
 import Header from '../components/Header';
 import Testimonial from '../components/Testimonial';
-import Case from '../components/Case';
 //images
 import calendar from '../assets/images/stories/cal.png'
 import coffee from '../assets/images/stories/cff.png'

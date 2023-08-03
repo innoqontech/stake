@@ -7,6 +7,8 @@ import Pricing from './pages/Pricing'
 import Demo from './pages/Demo'
 import Features from './pages/Features'
 import Dashboard from './pages/Dashboard'
+// import Tasks from './pages/mainPages/Tasks'
+import Tasks from './pages/mainPages/Tasks'
 
 function App() {
   
@@ -20,6 +22,7 @@ function App() {
           <Route path='/demo' element={<Demo/>}/>
           <Route path='/features' element={<Features/>}/>
           <Route path='/dashboard' element={<Dashboard/>}/>
+          <Route path='/tasks' element={<Tasks/>}/>
         </Routes>
       </main>
     </BrowserRouter>
