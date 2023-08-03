@@ -1,5 +1,5 @@
 import React from 'react'
-import '../components/Newsletter.css';
+import '../styles/Newsletter.css';
 import lg from '../assets/images/home/innoqon1.png'
 
 function Newsletter() {
