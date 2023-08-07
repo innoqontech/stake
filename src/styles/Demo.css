@@ -93,11 +93,11 @@
 .bxes{
     padding: 20px;
     width: 300px;
-    border-left: 5px transparent;
+    /* border-left: 5px transparent; */
     transition: background-color 0.5s, border-right 1s;
 }
 
-.active{
+.nactive{
     background-color: #f3f3f3;
     border-left: 5px solid #08C4B2;
 }

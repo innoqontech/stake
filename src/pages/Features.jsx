@@ -461,23 +461,23 @@ multiple intelligence benefits and use-cases.</p>
                     <img src={poimg} alt="" />
                 </div>
                 <div className="rig_cont">
-                    <div className={`bxes ${activeDiv === 'div1' ? 'active' : ''}`} onClick={() => handleDivClick('div1')}>
+                    <div className={`bxes ${activeDiv === 'div1' ? 'mactive' : ''}`} onClick={() => handleDivClick('div1')}>
                         <h2>Publishing and Scheduling</h2>
                         <p>Plan, organize, schedule and deliver content as a team with cross-network social publishing.</p>
                     </div>
-                    <div className={`bxes ${activeDiv === 'div2' ? 'active' : ''}`} onClick={() => handleDivClick('div2')}>
+                    <div className={`bxes ${activeDiv === 'div2' ? 'mactive' : ''}`} onClick={() => handleDivClick('div2')}>
                         <h2>Publishing and Scheduling</h2>
                         <p>Plan, organize, schedule and deliver content as a team with cross-network social publishing.</p>
                     </div>
-                    <div className={`bxes ${activeDiv === 'div3' ? 'active' : ''}`} onClick={() => handleDivClick('div3')}>
+                    <div className={`bxes ${activeDiv === 'div3' ? 'mactive' : ''}`} onClick={() => handleDivClick('div3')}>
                         <h2>Publishing and Scheduling</h2>
                         <p>Plan, organize, schedule and deliver content as a team with cross-network social publishing.</p>
                     </div>
-                    <div className={`bxes ${activeDiv === 'div4' ? 'active' : ''}`} onClick={() => handleDivClick('div4')}>
+                    <div className={`bxes ${activeDiv === 'div4' ? 'mactive' : ''}`} onClick={() => handleDivClick('div4')}>
                         <h2>Publishing and Scheduling</h2>
                         <p>Plan, organize, schedule and deliver content as a team with cross-network social publishing.</p>
                     </div>
-                    <div className={`bxes ${activeDiv === 'div5' ? 'active' : ''}`} onClick={() => handleDivClick('div5')}>
+                    <div className={`bxes ${activeDiv === 'div5' ? 'mactive' : ''}`} onClick={() => handleDivClick('div5')}>
                         <h2>Publishing and Scheduling</h2>
                         <p>Plan, organize, schedule and deliver content as a team with cross-network social publishing.</p>
                     </div>

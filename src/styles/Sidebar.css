@@ -1,0 +1,45 @@
+
+/* .lg{
+    margin-bottom: 35px;
+}
+
+.dove {
+    margin-bottom: 20px;
+} */
+
+.dove{
+    justify-content: space-around;
+}
+
+.midlg > :not(:last-child){
+    margin-bottom: 35px;
+}
+
+.dove NavLink:hover{
+    background-color: aqua;
+}
+
+
+.userlg{
+    position: relative;
+    /* margin-top: 40px; */
+}
+
+.blink::before{
+    content: "D";
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #0B7177;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    /* top: 50%;
+    left: 50%; */
+    transform: translate(-50%, -50%);
+
+}
