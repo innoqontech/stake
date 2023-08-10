@@ -26,6 +26,7 @@ const Tasks = () => {
   
     .justchecking{
         background-color: #364141;
+        width: 13vw;
     }
 
     .injustchecking{
