@@ -1,0 +1,24 @@
+.inright_icons{
+    border-left: 1.5px solid black;
+    padding: 20px 0;
+    width: 5vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F3F4F4;
+}
+
+.actives{
+    background-color: #2079C3;
+}
+
+.inright_icons img{
+    width: 25px;
+    padding: 8px;
+    color: black;
+    cursor: pointer;
+    background-size: cover;
+    border-radius: 50%;
+    overflow: visible;
+    margin: 20px 0;
+}
