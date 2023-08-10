@@ -11,7 +11,7 @@ const Closed_tasks = () => {
   
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
+    align-items: center;
     text-align: center;
     padding: 0 20px;
 
@@ -29,6 +29,7 @@ const Closed_tasks = () => {
     }
     .txt{
       font-weight: 700;
+      width: 800px;
     }
     .active{
       background: none;
