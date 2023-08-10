@@ -35,6 +35,12 @@ const Sidebar = () => {
             flex-direction: column;
             align-items: center;           
         }
+
+        .active{
+            background-color: #0000004d;
+            padding: 2px;
+            border-radius: 5px;
+        }
         
     `
 

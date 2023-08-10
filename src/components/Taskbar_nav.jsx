@@ -22,6 +22,13 @@ const Taskbar_nav = (props) => {
             border-radius: 10px;
             border: 1.5px solid black;
         }
+
+        a:hover{
+          background-color: #2079C3;
+          /* border: 2px solid white; */
+          transition: 0.5s ease;
+          color: white;
+        }
     `
 
   return (

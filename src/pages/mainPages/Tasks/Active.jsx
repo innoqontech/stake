@@ -8,6 +8,7 @@ import credit from '../../../assets/images/right-sidebar/Credit.png'
 import help from '../../../assets/images/right-sidebar/help.png'
 import notification from '../../../assets/images/right-sidebar/notification.png'
 import connect from '../../../assets/images/right-sidebar/connect-profile.png'
+import Right_bar from '../../../components/Right_bar'
 
 const Active = () => {
   return (
@@ -37,14 +38,15 @@ const Active = () => {
   {/* 
         <Outlet /> */}
       </div>
-      <div className="inright_icons">
+      {/* <div className="inright_icons">
           <img src={pencil} className='actives' alt="" />
           <img src={chat} alt="" />
           <img src={connect} alt="" />
           <img src={help} alt="" />
           <img src={credit} alt="" />
           <img src={notification} alt="" />
-        </div>
+        </div> */}
+        <Right_bar />
     </>
   )
 }

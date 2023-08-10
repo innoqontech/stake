@@ -3,6 +3,7 @@ import { Outlet, NavLink } from 'react-router-dom'
 import Sidebar from '../../../components/Sidebar'
 import '../../../styles/Tasks.css'
 import styled from 'styled-components';
+import Right_bar from '../../../components/Right_bar';
 
 // work on this 
 const Tasks = () => {
