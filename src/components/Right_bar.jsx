@@ -4,7 +4,7 @@ import styled from 'styled-components'
 import pencil from '../assets/images/right-sidebar/pencil.png'
 import chat from '../assets/images/right-sidebar/Chat.png'
 import credit from '../assets/images/right-sidebar/Credit.png'
-import help from '../assets/images/right-sidebar/help.png'
+import help from '../assets/images/right-sidebar/Help.png'
 import notification from '../assets/images/right-sidebar/notification.png'
 import connect from '../assets/images/right-sidebar/connect-profile.png'
 
