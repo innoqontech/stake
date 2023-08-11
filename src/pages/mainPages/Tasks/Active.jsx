@@ -2,12 +2,6 @@ import React from 'react'
 import { NavLink, Outlet } from 'react-router-dom'
 import '../../../styles/Active.css'
 import Taskbar_nav from '../../../components/Taskbar_nav'
-import pencil from '../../../assets/images/right-sidebar/pencil.png'
-import chat from '../../../assets/images/right-sidebar/Chat.png'
-import credit from '../../../assets/images/right-sidebar/Credit.png'
-import help from '../../../assets/images/right-sidebar/help.png'
-import notification from '../../../assets/images/right-sidebar/notification.png'
-import connect from '../../../assets/images/right-sidebar/connect-profile.png'
 import Right_bar from '../../../components/Right_bar'
 
 const Active = () => {
