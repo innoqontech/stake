@@ -26,4 +26,4 @@ const Right_bar = () => {
   )
 }
 
-export default Right_bar
+export default Right_bar;
