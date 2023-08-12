@@ -25,7 +25,7 @@ function Header() {
             <Link to="/about-us">Company</Link>
             <Link to="/stories">Stories</Link>
           </div>
-          <Link className='log_in' to="/dashboard">Login</Link>
+          <Link className='log_in' to="/tasks">Login</Link>
         </nav>
     </div>
   )
