@@ -12,7 +12,7 @@ const Active = () => {
         <div className="inupper">
           <div className="hor_container">
                 <div className="first containers">
-                    <h2>1 To Do</h2>
+                    <h2>0 To Do</h2>
                     <p>in the last 7 days</p>
                 </div>
                 <div className="second containers">
